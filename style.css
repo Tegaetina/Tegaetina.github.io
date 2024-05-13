@@ -5,58 +5,119 @@
 }
 
 :root{
-    --white:hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
 }
 
 body{
-    background-color: var(--light-gray);
+    background-color: var(--yellow);
     min-height: 100vh;
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-.card{
-    background-color: var(--white);
-    width: 334px;
-    height: 500px;
-    line-height: 1.2;
-    margin-top: 3rem;
-    border-radius: 20px;
-}
-
-.container
-{
-    margin-bottom:5rem;
+    font-family: 'Figtree', sans-serif;
+    display: grid;
+    place-content: center;
 }
 
 img{
-    width: 300px;
+    width: 100%;
+    display: block;
 }
 
-.image img{
-    border-radius: 11px;
+.card{
+    background-color: var(--white);
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    position: relative;
+    border-radius: 1rem;
+    outline: 1px solid #000;
+}
+
+.card ::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    border-radius: 1rem;
+    z-index: -1;
+
+}
+
+.card img{
+    border-radius: 1rem;
+}
+
+.category{
+    background-color: var(--yellow);
+    width: min-content;
+    padding: .5rem;
+    margin-top: 1.5rem;
+    font-weight: 800;
+}
+.category h1{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.publishdate{
     margin-top: 1rem;
-    margin-left: 1rem;
+}
+.title{
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.header{
-  font-size: 11px; 
-  color: var(--dark-blue);
-  margin-bottom: 1rem;
-  text-align: center;
+.description{
+    margin-top: 1rem 0;
+    color: var(--grey);
+    line-height: 1.5;
 }
 
-.note{
+.title a {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.title a:hover{
+    color: var(--yellow);
+}
+
+.author{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.author img{
+   width: 30px; 
+}
+
+.author h1{
     font-size: 16px;
-    color: var(--grayish-blue);
-    text-align: center;
+    font-weight: 800;
+}
+
+.attribution{
+    margin-top: 1rem;
+}
+
+.attribution a{
+    color: var(--grey);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media (max-width:375px){
+    .card title a{
+        font-size: 1.25rem;
+    }
 }
