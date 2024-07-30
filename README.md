@@ -1,35 +1,57 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Hi!TechgirlTega here. Here is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Desktop Screenshot](#desktop-screenshot)
+  - [Mobile Screenshot](#mobile-screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
-### Screenshot
+### The challenge
 
-![](/Recipemenu.jpeg)
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
+
+### Desktop Screenshot
+
+![](perfume(iPad%20Air).png)
+
+### Mobile Screenshot
+
+![](perfume(iPhone%2014%20Pro%20Max).png)
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+I really enjoyed coding this project. I learned so much about  Media Query and making use of the developer tool in my browser to edit and confirm how it displays on each revolution before saving it to my code.
+
 
 ## Author
+- Frontend Mentor - [@yousername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@techgirltega](https://www.instagram.com/techgirltega)
 
-- Frontend Mentor - [@Tegaetina](https://www.frontendmentor.io/profile/Tegaetina)
-- Instagram - [@techgirltega](https://www.instagram.com/techgirltega)
