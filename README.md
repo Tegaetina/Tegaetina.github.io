@@ -1,18 +1,21 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Four card feature section solution
 
-Hi!TechgirlTega here. Here is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Desktop Screenshot](#desktop-screenshot)
-  - [Mobile Screenshot](#mobile-screenshot)
+  - [Screenshots](#screenshots)
+   - [Desktop View](#desktop-view)
+   - [Tablet View](#tablet-view)
+   - [Mobile View](#mobile-view)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -20,23 +23,27 @@ Hi!TechgirlTega here. Here is a solution to the [Product preview card component 
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- View the optimal layout for the site depending on their device's screen size
 
-### Desktop Screenshot
+### Screenshots
 
-![](perfume(iPad%20Air).png)
+#### Desktop View
 
-### Mobile Screenshot
+![](./result/fourcards%20pc.png)
 
-![](perfume(iPhone%2014%20Pro%20Max).png)
+#### Tablet View
 
+![](./result/fourcards%20tab.png)
+
+#### Mobile View
+
+![](./result/fourcards%20mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://Tegaetina.github.io.)
 
+## My process
 
 ### Built with
 
@@ -44,14 +51,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### What I learned
-
-I really enjoyed coding this project. I learned so much about  Media Query and making use of the developer tool in my browser to edit and confirm how it displays on each revolution before saving it to my code.
-
-
+This challenge was quite interesting and it involved a lot of patience. I learnt how to use css grid , create highlights on cards and also how to arrange the cards according to the design.
 ## Author
-- Frontend Mentor - [@yousername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@techgirltega](https://www.instagram.com/techgirltega)
 
+- Frontend Mentor - [@Tegaetina](https://www.frontendmentor.io/profile/Tegaetina
+- Instagram - [@Techgirltega](https://www.instagram.com/techgirltega)
